@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import ImageComponent from '../components/ImageComponent'
 // import Image from 'next/image'
 
 export default function HomePage() {
@@ -27,6 +28,7 @@ export default function HomePage() {
           width={256}
           height={256}
         /> */}
+        <ImageComponent src="/images/logo.png" />
       </div>
       <div>
         <button
